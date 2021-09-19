@@ -33,7 +33,7 @@ for ip in ip_list:
 #Sorting country names
 country_list = sorted(country_list)
 #Saving the results to country_list.txt
-file = open("country_list.txt", "w")  
+file = open('country_list.txt', 'w')  
 for country in country_list:
-    file.write(country + "\n")
+    file.write(country + '\n')
 file.close()
